@@ -1,0 +1,28 @@
+@import "node_modules/bulma/sass/utilities/initial-variables"
+
+// https://convertingcolors.com/hex-color-FF9793.html
+
+// Customization
+$grey-darker: hsl(204, 100%, 14%)
+$primary: hsl(171, 100%, 41%) // #00d1b2
+$secondary: hsl(23, 99%, 71%) // #FEA46E
+
+@import "node_modules/bulma/bulma"
+
+//@import "node_modules/bulma/sass/utilities/_all"
+//@import "node_modules/bulma/sass/base/_all"
+//@import "node_modules/bulma/sass/grid/columns"
+
+.hero
+    background: $secondary
+
+.footer
+    background: $primary
+    color: $white
+
+    a
+        color: $warning
+        font-weight: bold
+
+.is-right
+    text-align: right
