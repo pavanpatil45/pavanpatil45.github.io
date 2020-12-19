@@ -11904,12 +11904,14 @@ print {
 	padding: 1.5rem
 }
 
-pavan header
+
+
+/* pavan header */ 
 
 @media screen and (min-width:769px),
 print {
 	.hero.is-medium .hero-body {
-		padding: 3rem 1.5rem
+		padding: 4rem 1.5rem
 	}
 	.hero.is-large .hero-body {
 		padding: 18rem 1.5rem
